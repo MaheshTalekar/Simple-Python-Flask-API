@@ -1,0 +1,38 @@
+//Initial step will be to create virtual environment to build the Flask API.//
+
+hduser@mahesh-VirtualBox:~$ virtualenv ProjectTask                        //Created Virtual environment named as ProjectTask
+
+hduser@mahesh-VirtualBox:~$ source ProjectTask/bin/activate               //used this command to activate the virtual environment
+(ProjectTask) hduser@mahesh-VirtualBox:~$
+
+(ProjectTask) hduser@mahesh-VirtualBox:~$ mkdir ~/ProTask                //Created a new directory
+(ProjectTask) hduser@mahesh-VirtualBox:~$ cd ~/ProTask/
+(ProjectTask) hduser@mahesh-VirtualBox:~/ProTask$                        //The database and .py file should be present in this current directory
+
+
+
+//Commands to intall libraries that are being used in the .py file//
+
+
+(ProjectTask) hduser@mahesh-VirtualBox:~/ProTask$ pip install flask
+
+(ProjectTask) hduser@mahesh-VirtualBox:~/ProTask$ pip install flask-restful
+
+(ProjectTask) hduser@mahesh-VirtualBox:~/ProTask$ pip install sqlalchemy
+
+(ProjectTask) hduser@mahesh-VirtualBox:~/ProTask$ pip install flask flask-jsonpify flask-sqlalchemy flask-restful
+
+(ProjectTask) hduser@mahesh-VirtualBox:~/ProTask$ pip freeze
+aniso8601==2.0.0
+click==6.7
+Flask==0.12.2
+Flask-Jsonpify==1.5.0
+Flask-RESTful==0.3.6
+Flask-SQLAlchemy==2.3.2
+itsdangerous==0.24
+Jinja2==2.10
+MarkupSafe==1.0
+pytz==2017.3
+six==1.11.0
+SQLAlchemy==1.2.1
+Werkzeug==0.14.1

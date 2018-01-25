@@ -1,0 +1,7 @@
+Steps to Create Database from csv file:
+
+hduser@mahesh-VirtualBox:~$ sqlite3 Cars.db                      // created database in sqlite and named it as Cars.db
+
+sqlite> .mode csv Cars                                           // Switched to CSV mode to import the file.                           
+
+sqlite> .import /home/hduser/Downloads/Cars.csv Cars            // Imported CSV file into the table Cars 
